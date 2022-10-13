@@ -1,0 +1,20 @@
+.button {
+    background: #FFDE7D;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: black;
+
+    &:hover {
+        background: #00B8A9;
+        color: #ffffff;
+        border-radius: 0;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+    }
+}
