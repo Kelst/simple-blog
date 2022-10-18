@@ -1,3 +1,4 @@
+
 import {BuyMeCoffee, Section, SocialNetworks, Title,Cover, PostGrid, Post, Button} from "../components"
 import {useState} from "react"
 import Head from 'next/head'
@@ -29,7 +30,7 @@ export default function Home({initialPosts,total}) {
       <title>My blog</title>
     </Head>
     <Section>
-      <Cover title="Vlad </br> Bezkorovainiy"/>
+      <Cover title="Vlad </br> Bezkorovainyi"/>
       <SocialNetworks/>
       <BuyMeCoffee/>
     </Section>
